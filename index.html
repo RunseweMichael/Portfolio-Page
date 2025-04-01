@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+
+    <style>
+        @media (min-width:800px){
+            body{
+                height: 100vh;
+                width: 100vw;
+                font-size: 16px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: lightgray;
+                background-color: brown;
+            }
+
+            #line1{
+                margin: 0 310px;
+                font-weight: bolder;
+            }
+
+            .project-tile{
+                height: 400px;
+                width: 400px;
+            }
+
+            .p{
+                width: 400px;
+            }
+
+            #how{
+                margin-left: 370px;
+            }
+
+            #proj_query{
+                display: flex;
+                gap: 50px;
+            }
+
+            #proj_query2{
+                display: flex;
+                gap: 50px;
+            }
+        }
+    </style>
+
+</head>
+<body style="position: absolute;">
+    <header>
+        <nav id="navbar" style="position: fixed; top: 0; left: 0;">
+            <a href="#" target="blank" class="navbar_el">About</a>
+            <a href="#" target="blank" class="navbar_el">Work</a>
+            <a href="#" target="blank" class="navbar_el">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="welcome-section">
+            <h1>Hi!!!, I am Michael</h1>
+            <div style="color: beige";>a web developer</div>
+        </section>
+        <section id="projects">
+            <h1 id="these">These are some of my Projects</h1>
+            <hr id="line1"><br><br><br>
+
+            <div id="proj_query">
+                <div>
+                    <a href="C:\Users\HP\Desktop\My Web Projects\DOCUMENTATION-PAGE" target="_blank" class="rem">
+                        <img src="./Weight_Converter.jpeg" alt="" height="400px" width="600px" class="project-tile">
+                        <p class="p">Weight Conveter</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="www.google.com" target="_blank" class="rem">
+                        <img src="./Survey_form.jpeg" alt="" srcset="" height="400px" width="600px" class="project-tile">
+                        <p class="p">Survey Form</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="www.google.com"  target="_blank" class="rem">
+                        <img src="./Screenshot_15-2-2025_64832_127.0.0.1.jpeg" alt="" srcset="" height="400px" width="600px" class="project-tile">
+                        <p class="p">Javascript Calculator</p>
+                    </a>
+                </div>
+            </div>
+
+            <div id="proj_query2">
+                <div>
+                    <a href="www.google.com" target="_blank" class="rem">
+                        <img src="./Palindrome_checker.jpeg" alt="" srcset="" height="400px" width="600px" class="project-tile">
+                        <p class="p">Palindrome Checker</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="www.google.com" target="_blank" class="rem">
+                        <img src="./Landing_page.jpeg" alt="" srcset="" height="400px" width="600px" class="project-tile">
+                        <p class="p">ShippingCompany</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="www.google.com" target="_blank" class="rem">
+                        <img src="./Screenshot_15-2-2025_7631_127.0.0.1.jpeg" alt="" srcset="" height="400px" width="600px" class="project-tile">
+                        <p class="p">Grid Calculator</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <div id="profile-links">
+            <a href="" id="profile-link" target="_blank" class="showbtn">Show all ></a>
+        </div>
+
+    </main>
+    <footer id="footer">
+        <div id="text">
+            <h1 id="let">Let's work together...</h1>
+            <p id="how">How do you take your coffee?</p>
+        </div>
+
+        <div id="lastPage">
+            <div id="socials">
+                <a href="" target="blank" class="soc"><i class='fab fa-facebook-square' style='font-size:24px'></i>Facebook</a>
+                <a href="" target="blank" class="soc"><i class='fab fa-github' style='font-size:24px'></i>GitHub</a>
+                <a href="" target="blank" class="soc"><i class='fab fa-twitter' style='font-size:24px'>Twitter</i></a>
+            </div>
+            <div id="page2">
+                <a href="" target="blank" class="soc">@ Send a mail</a>
+                <a href="" target="blank" class="soc"> Call me</a>
+            </div>
+            <hr id="line">
+        </div>
+
+        <div id="cert">
+            <p class="cert1">This is a portfolio page created by Michael.</p>
+            <p class="cert1">&#169 Created for FreeCodeCamp Certification</p>
+        </div>
+    </footer>
+</body>
+</html>

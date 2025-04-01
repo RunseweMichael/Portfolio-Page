@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray;
+    background-color: brown;
+}
+
+#navbar{
+    background-color: beige;
+    height: 70px;
+    width: 100vw;
+    font-size: 23px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 35px;
+    padding-right: 55px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.navbar_el{
+    text-decoration: none;
+    color: orangered;
+}
+
+#welcome-section{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    padding-bottom: 200px;
+}
+
+#projects{
+    background-color: cornflowerblue;
+    width: 100vw;
+    padding: 50px 25px;
+    padding-right: 50px;
+}
+
+h1{
+    font-size: 46px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+
+p{
+    width: 600px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: darkred;
+    margin-bottom: 40px;
+    color: beige;
+    padding-top: 0;
+    margin-top:-10px;
+}
+
+.rem{
+    text-decoration: none;
+    color: white;
+}
+
+#profile-links{
+    height: 200px;
+    width: 100vw;
+    margin-top: -100px;
+    background-color: cornflowerblue;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showbtn{
+    height: 40px;
+    width: 130px;
+    text-align: center;
+    text-decoration: none;
+    background-color: darkred;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: -5px;
+    font-size: 20px;
+}
+
+#text{
+    text-align: center;
+    background-color: darkred;
+}
+
+#let{
+    font-size: 60px;
+    margin-bottom: -30px;
+    padding-top: 150px;
+}
+
+#how{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 45px;
+    margin-bottom: 60px;
+    font-style: italic;
+}
+
+#lastpage{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    gap: 50px;
+    background-color: darkred;
+}
+
+#socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: -50px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.soc{
+    text-decoration: none;
+    font-size: 26px;
+    color: white;
+    font-size: 30px;
+}
+
+#page2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: darkred;
+    margin-bottom: 200px;
+}
+
+#footer{
+    height: 90vh;
+    width: 100vw;
+    background-color: darkred;
+}
+
+#line{
+    color: beige;
+    margin: 30px;
+    margin-top: -50px;
+}
+
+#cert{
+    display: flex;
+    /* margin-bottom: -50px; */
+}
+
+.cert1{
+    font-size: 20px;
+    margin: -20px 30px;
+    gap: 100px;
+}
+
+#these{
+    text-align: center;
+    font-size: 40px;
+}
+
